@@ -1,7 +1,3 @@
-# prop_station
-
-Raspberry pi propagation station.
-
 # Vision
 
 Grow your plant props with help from raspberry pi.
