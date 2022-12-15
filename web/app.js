@@ -22,6 +22,9 @@ app.use(
   express.static(__dirname + '/node_modules/bootstrap-icons/icons/')
 );
 
+// Shortcut to Chart.js
+app.use('/chartjs', express.static(__dirname + '/node_modules/chart.js/dist/'));
+
 // Express router to handle all web related endpoints.
 app.use(router);
 
